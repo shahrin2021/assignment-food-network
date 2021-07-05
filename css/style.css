@@ -6,6 +6,7 @@ body{
     box-sizing: border-box;
     font-size: 20px;
     font-weight: 400;
+    color: #090909;
    
 }
 
@@ -102,7 +103,7 @@ img{
 }
 
 #banner-section{
-    padding: 40px 0;
+    padding: 100px 0;
 }
 
 /* banner css end */
@@ -126,7 +127,7 @@ img{
 }
 
 #about-section{
-    padding: 50px 0;
+    padding: 100px 0;
     background-image: url(../images/shapes/7.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -142,3 +143,106 @@ img{
     margin-top: 60px;
 }
 
+/* recipies css */
+
+.recipies-items-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-box{
+    width: 33.333%;
+    box-shadow: 10px 10px 10px 0 ;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.one{
+    margin-right: 15px;
+}
+
+.two{
+    margin: 0 15px;
+}
+
+.three{
+    margin-left: 15px;
+}
+
+.image-box{
+    border-radius: 10px;
+}
+
+.image-box img{
+    border-radius: 10px;
+}
+
+.recipie-heading h2{
+    font-size: 38px;
+    text-align: center;
+}
+
+.recipie-heading p{
+    text-align: center;
+}
+
+
+.recipie-heading{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+#recipies-section{
+    padding: 100px 0;
+    background-color: #FB8946;
+    opacity: 1;
+}
+
+/* numbrer css */
+
+.number-items-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 15px 0;
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+.number-item{
+    width: 33.33%;
+    text-align: center;
+}
+
+#number-section{
+    padding: 100px 0;
+
+}
+
+/* footer */
+
+.footer-text{
+    text-align: center;
+}
+
+.footer-text h2{
+    font-size: 38px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.footer-text p{
+    color: #fff;
+}
+
+.footer-color{
+    color: #FE4A2F;
+}
+
+#footer-section{
+    background-color: #0B0E17;
+    padding: 100px 0;
+}
