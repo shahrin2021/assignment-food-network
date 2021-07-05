@@ -4,7 +4,7 @@ body{
     margin: 0;
     margin: 0;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
    
 }
@@ -16,7 +16,9 @@ body{
 }
 
 
-
+img{
+    max-width: 100%;
+}
 
 /* header area css */
 
@@ -38,7 +40,7 @@ body{
     padding: 0 20px;
     text-decoration: none;
     line-height: 40px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: #fff;
 }
@@ -71,7 +73,7 @@ body{
     background-image: linear-gradient(#FD4E30 , #FB8946);
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500px;
     border-radius: 30px;
 }
@@ -88,5 +90,55 @@ body{
 .banner-text h1{
     font-size: 50px;
 }
+.banner-text{
+    width: 50%;
+    padding: 0 15px;
+}
+
+.banner-image{
+    width: 50%;
+    padding-left: 15px;
+    
+}
+
+#banner-section{
+    padding: 40px 0;
+}
 
 /* banner css end */
+
+/* abut css start */
+
+.about-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-image{
+    width: 50%;
+    padding-right: 15px;  
+}
+
+.about-me-text{
+    width: 50%;
+    padding: 0 15px;
+}
+
+#about-section{
+    padding: 50px 0;
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.about-me-text h2{
+    font-size: 38px;
+    color: brown;
+}
+
+.about-button{
+    margin-top: 60px;
+}
+
