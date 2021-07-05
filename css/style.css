@@ -1,0 +1,92 @@
+/* universel css */
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+   
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+
+/* header area css */
+
+.header-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-area ul{
+    list-style: none;
+}
+
+.header-area ul li{
+    display: inline-block;
+}
+
+.header-area ul li a{
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.header-area ul li a:hover{
+    color: #000;
+    transition: .3s;
+}
+
+#header-king{
+    background-image: linear-gradient(#FFF4EE , #FE4A2F);
+}
+
+/* header css end */
+
+/* banner section css */
+
+.banner-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#color{
+    color: #FB8C49;
+}
+
+.order-link{
+    padding: 12px 40px;
+    background-image: linear-gradient(#FD4E30 , #FB8946);
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500px;
+    border-radius: 30px;
+}
+
+.order-link:hover{
+    color: #000;
+    transition: .4s;
+}
+
+.banner-btn{
+    margin-top: 35px;
+}
+
+.banner-text h1{
+    font-size: 50px;
+}
+
+/* banner css end */
